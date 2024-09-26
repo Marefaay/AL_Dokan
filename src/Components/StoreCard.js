@@ -3,7 +3,7 @@ import { Button, Card } from "react-bootstrap";
 import { shoppingContext } from "../context/ShoppingContext";
 const StoreCard = (props) => {
   // console.log(props.card);
-  // const { addToCart, getProductQuantity } = useContext(shoppingContext);
+  const { addToCart} = useContext(shoppingContext);
   // const addToCartBtn = document.getElementById("add");
   // console.log(addToCartBtn[0])
   // addToCartBtn[0].addEventListener("click", () => {
