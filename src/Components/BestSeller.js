@@ -6,15 +6,15 @@ import storeItems from "../data/items.json";
 const BestSeller = () => {
   const prds = storeItems.map((item) => {
     if (item.best === "yes") {
-      // console.log(item.name)
       return (
-        <Col>
-          <BestSellerCard key={item.id} prd={item} />
+        <Col key={item.id}> {/* Key should be on the Col element */}
+          <BestSellerCard prd={item} />
         </Col>
       );
     }
+    return null; // Return null for items that do not meet the condition
   });
-  console.log(prds);
+
   return (
     <div className="best-seller p-5">
       <SectionHeadingTwo head="Best Seller" />
@@ -24,4 +24,5 @@ const BestSeller = () => {
     </div>
   );
 };
+
 export default BestSeller;

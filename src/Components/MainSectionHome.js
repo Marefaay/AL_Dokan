@@ -1,4 +1,4 @@
-import {  Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import mainSectionHome from "../images/Online wishes list-rafiki.png";
 import "./MainSectionHome.css";
 import { Link } from "react-router-dom";
@@ -43,6 +43,7 @@ const MainSectionHome = () => {
             src={mainSectionHome}
             className="
           img-fluid "
+            alt="img"
           />
         </Col>
       </Row>
