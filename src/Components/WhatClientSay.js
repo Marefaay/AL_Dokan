@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./WhatClientSay.css";
 const WhatClientSay = () => {
   return (
-    <div className="what-client-say  p-5">
+    <div className="what-client-say  p-sm-0 p-md-5 p-lg-5">
       <Container className="">
         <SectionHeadTwo head="What client Say" className="mt-5 " />
         <Row xs={1} md={1} lg={2}>
