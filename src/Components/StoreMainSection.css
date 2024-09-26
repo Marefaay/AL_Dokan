@@ -28,9 +28,10 @@
   left: 0;
   z-index: -1;
 }
+
 @media (max-width:567px) {
   #shape{
-    display: none;
+    display: none !important;
   }
   
 }
