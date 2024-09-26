@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import SectionHeadTwo from "./SectionHeadingTwo";
+// import SectionHeadTwo from "./SectionHeadingTwo";
 import "./WhoWeAreAbout.css";
 import SectionHead from "./SectionHead";
 import { Link } from "react-router-dom";

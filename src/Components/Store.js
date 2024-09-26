@@ -2,8 +2,8 @@ import { Row, Col, Container } from "react-bootstrap";
 // import Col from "react-bootstrap";
 import storeItems from "../data/items.json";
 import StoreCard from "./StoreCard";
-import React, { useContext, useEffect, useState } from "react";
-import { shoppingContext } from "../context/ShoppingContext.js";
+import React, {  useEffect, useState } from "react";
+// import { shoppingContext } from "../context/ShoppingContext.js";
 import StoreMainSection from "./StoreMainSection.js";
 // import DotLoader from "react-spinners/DotLoader";
 import Overlay from "./Overlay.js"

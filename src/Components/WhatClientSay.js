@@ -9,7 +9,7 @@ const WhatClientSay = () => {
         <SectionHeadTwo head="What client Say" className="mt-5 " />
         <Row xs={1} md={1} lg={2}>
           <Col>
-            <img src={Client} className="img-fluid mt-5" />
+            <img src={Client} className="img-fluid mt-5" alt="img" />
           </Col>
           <Col>
             <div
