@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Gototop.css";
 const Gototop = () => {
-  const topArrow = document.getElementById("go-to-top");
+  // const topArrow = document.getElementById("go-to-top");
   //   function hideArrowTop() {
   //     if (window.scrollY < 500) {
   //         console.log(window.scrollY)

@@ -16,7 +16,7 @@ const Store = () => {
   //   }, 5000);
   // }, []);
   // console.log(storeItems);
-  const { addToCart } = useContext(shoppingContext);
+  // const { addToCart } = useContext(shoppingContext);
   // console.log(value)
   const [loading, setLoading] = useState(false);
   useEffect(() => {

@@ -5,7 +5,7 @@ import storeItems from "../data/items.json";
 
 const BestSeller = () => {
   const prds = storeItems.map((item) => {
-    if (item.best == "yes") {
+    if (item.best === "yes") {
       // console.log(item.name)
       return (
         <Col>

@@ -27,7 +27,7 @@ const ContactUs = () => {
     const value = event.target.value;
     setEmail(value);
 
-    if (gmailRegex.test(value) == false) {
+    if (gmailRegex.test(value) === false) {
       setEmailErrors('Email Must Be As "name@gmail.com"');
     } else {
       setEmailErrors(null);
@@ -44,17 +44,17 @@ const ContactUs = () => {
   };
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    if (name.length == 0) {
+    if (name.length === 0) {
       setNameErrors("Name Should't Be Empty");
     }
-    if (email.length == 0) {
+    if (email.length === 0) {
       setEmailErrors("Email Should't Be Empty");
     }
-    if (notes.length == 0) {
+    if (notes.length === 0) {
       setNotesErrors("Notes Should't Be Empty");
     }
     if (
-      gmailRegex.test(email) == true &&
+      gmailRegex.test(email) === true &&
       name.length > 5 &&
       notes.length > 20
     ) {
@@ -131,7 +131,7 @@ const ContactUs = () => {
           </Col>
           <Col>
             <div className="contact-fcolunm">
-              <img src={contact} className="img-fluid"/>
+              <img src={contact} className="img-fluid" alt="img"/>
             </div>
           </Col>
         </Row>

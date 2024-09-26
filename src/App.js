@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Container } from "react-bootstrap";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Store from "./Components/Store";
@@ -11,7 +9,6 @@ import ShoppingProvider from "./context/ShoppingContext";
 import Cart from "./Components/Cart";
 import Footer from "./Components/Footer";
 // import { useEffect, useState } from "react";
-import DotLoader from "react-spinners/DotLoader"
 import { useEffect, useState } from "react";
 import Overlay from "./Components/Overlay";
 

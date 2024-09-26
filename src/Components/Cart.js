@@ -6,7 +6,7 @@ import "./cart.css";
 const Cart = () => {
   const { products, removeFromCart } = useContext(shoppingContext);
   console.log(products.items);
-  if (products.items.length == 0) {
+  if (products.items.length === 0) {
     return <h1 className="text-center mt-5 pt-5">No Items Added To Card</h1>;
   }
   const tableCart = products.items.map((product) => {
@@ -16,6 +16,7 @@ const Cart = () => {
           <img
             src={product.imgUrl}
             style={{ width: "100px", height: "80px", objectFit: "cover" }}
+            alt="img"
           />
         </td>
         <td>{product.name}</td>

@@ -6,7 +6,7 @@ const BestSellerCard = (props) => {
     <div className="best-seller-card mt-5 mb-5 ">
       <h2 className="text-center p-2">{props.prd.name}</h2>
       <div className="img-card">
-        <img src={props.prd.imgUrl} />
+        <img src={props.prd.imgUrl} alt="img" />
       </div>
       <div className="best-seller-card-body">
         <p className="text-center p-4">

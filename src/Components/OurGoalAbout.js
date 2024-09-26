@@ -1,8 +1,8 @@
-import { Col, Container, Row } from "react-bootstrap";
-import Goalimg from "../images/OIP (9).jpeg";
+import {  Container } from "react-bootstrap";
+// import Goalimg from "../images/OIP (9).jpeg";
 import "./OurGoalAbout.css";
-import SectionHead from "./SectionHead";
-import { Link } from "react-router-dom";
+// import SectionHead from "./SectionHead";
+// import { Link } from "react-router-dom";
 import SectionHeadTwo from "./SectionHeadingTwo";
 const OurGoalAbout = () => {
   return (
