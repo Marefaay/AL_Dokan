@@ -1,0 +1,42 @@
+/* .f-colunm{
+    background-color: blue;
+    padding: 20px 0;
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 8px;
+    color: white;
+}
+.s-colunm{
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.t-colunm{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 20px 0;
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 8px;
+} */
+
+ .f-colunm p{
+    width: 100% !important;
+    font-size: 20px !important;
+    text-align: justify;
+ }
+ .progress-bar{
+    width: 80%;
+ }
+#sales{
+    width: 50% ;
+}
+#customers{
+    width: 90%;
+}
+#security{
+    width: 95%;
+}

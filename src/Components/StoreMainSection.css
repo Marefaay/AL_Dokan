@@ -1,0 +1,30 @@
+.store-main-section {
+  background-color: #0d6efd;
+  margin-bottom: 150px;
+  height: 30vh;
+  padding-top: 80px;
+  text-align: center;
+  position: relative;
+}
+.store-main-section h1 {
+  color: #fff;
+  font-size: 80px;
+}
+.store-main-section span a
+ {
+  text-decoration: none;
+  color: #ffffffa8;
+  font-size: 20px;
+}
+.store-main-section span {
+    font-size: 20px;
+    color:#fff ;
+    text-transform: capitalize;
+    
+}
+#shape {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  z-index: -1;
+}

@@ -1,0 +1,27 @@
+.main-section-cart {
+  background-color: #0d6efd;
+  text-align: center;
+  height: 30vh;
+  /* margin-bottom: 200px; */
+  height: 30vh;
+  padding-top: 50px;
+}
+
+.main-section-cart h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+.main-section-cart span {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.main-section-cart span a {
+  text-decoration: none;
+  color: #ffffffa8;
+  font-size: 20px;
+}
+.tb{
+    overflow-x: auto;
+}

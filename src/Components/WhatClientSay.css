@@ -1,0 +1,22 @@
+.what-client-say .carousel-inner {
+  box-shadow: 0 0 4px 3px #0000003d;
+  position: relative;
+}
+.what-client-say .carousel-item .txt {
+  text-align: justify;
+  margin-top: 35px;
+}
+.what-client-say .carousel {
+  margin-top: 30%;
+}
+#prev {
+  background-color: red;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+#next{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}

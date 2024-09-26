@@ -1,0 +1,64 @@
+.who-we-are-about {
+  width: 100%;
+  height: 90vh;
+  /* margin-top: 190pwx; */
+  background-image: url("../images/AdobeStock_209709397-scaled.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  /* background: #0000001f; */
+  background-blend-mode: darken;
+  background-color: #00000088;
+  position: relative;
+}
+.inner-who-we-are-about {
+  background-color: #303032;
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  border-radius: 8px;
+  color: #fff;
+}
+.inner-who-we-are-about p {
+  width: 90%;
+}
+#store {
+  text-decoration: none;
+  background-color: blue;
+  color: #ffff;
+  padding: 20px 50px;
+  border-radius: 80px;
+  margin: 20px 0;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+#store:hover {
+  background-color: #000;
+}
+@media (max-width:992px) {
+  .who-we-are-about{
+    padding: 18px !important;
+  }
+  .inner-who-we-are-about {
+    width: 80% !important;
+    height: 83vh !important;
+    left: 10% !important;
+    top: 5%;
+  }
+  
+}
+@media (max-width:567px) {
+  .who-we-are-about{
+    padding: 18px !important;
+  }
+  .inner-who-we-are-about {
+    width: 80% !important;
+    height: 82vh !important;
+    left: 10% !important;
+    top: 5%;
+  }
+  
+}

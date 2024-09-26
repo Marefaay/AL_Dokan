@@ -1,0 +1,31 @@
+.goal-img {
+    height: 60%;
+    width: 90%;
+}
+.our-goal-about{
+    padding-top: 100px !important;
+}
+.our-goal-about p{
+    text-align: justify;
+    line-height: 1.8;
+    font-weight: 600;
+    color: #00000096;
+}
+@media (max-width:992px) {
+    .our-goal-about{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0px !important;
+    }
+  
+    
+}
+@media (max-width:567px) {
+    .our-goal-about{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0px !important;
+    }
+  
+    
+}
