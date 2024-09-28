@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
  
       <NavbarBs className="shadow-sm bg-white " bg="light" sticky="top">
-      
+      <Container className=" align-items-center">
           <Link to="/" className="text-decoration-none text-dark fs-4">
             AL_Dokan
           </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               </div>
             </Button>
           </Nav.Link>
-        
+          </Container>
       </NavbarBs>
    
   );
