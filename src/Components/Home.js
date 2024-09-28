@@ -7,7 +7,8 @@ import MainSectionHome from "./MainSectionHome";
 import Overlay from "./Overlay";
 import WhoWeAre from "./WhoWeAre";
 import WhyChooseUs from "./WhyChooseUs";
-
+// import AddGroup from "./AddGroup.js";
+// import AddGroup from "./AddGroup.js"
 const Home = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -28,6 +29,7 @@ const Home = () => {
       <FrequentlyQuestion />
       <Gototop />
       <ContactUs />
+      {/* <AddGroup/> */}
      
     </>
   );
