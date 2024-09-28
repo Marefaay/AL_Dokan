@@ -5,7 +5,7 @@ import { shoppingContext } from "../context/ShoppingContext";
 const Navbar = () => {
   const { products } = useContext(shoppingContext);
   return (
-    <Container>
+ 
       <NavbarBs className="shadow-sm bg-white " bg="light" sticky="top">
         <Container className=" align-items-center">
           <Link to="/" className="text-decoration-none text-dark fs-4">
@@ -53,7 +53,7 @@ const Navbar = () => {
           </Nav.Link>
         </Container>
       </NavbarBs>
-    </Container>
+   
   );
 };
 export default Navbar;
